@@ -12,10 +12,10 @@
 
 #include <layouts/common/60percent/ansi.dtsi>
 
-#include "nice60-pinctrl.dtsi"
+#include "M71nrf-pinctrl.dtsi"
 
 / {
-    model = "nice!60";
+    model = "M71nrf";
     compatible = "nice,60";
 
     chosen {
