@@ -18,4 +18,4 @@
 #
 ---
 include:
-  - board: M71nrf
+  - board: nice_nano
