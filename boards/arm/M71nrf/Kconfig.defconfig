@@ -1,10 +1,10 @@
 # Copyright (c) 2021 Nick Winans
 # SPDX-License-Identifier: MIT
 
-if BOARD_NICE60
+if BOARD_M71NRF
 
 config ZMK_KEYBOARD_NAME
-    default "nice!60"
+    default "M71nrf"
 
 if USB_DEVICE_STACK
 
@@ -16,4 +16,4 @@ endif # USB_DEVICE_STACK
 config BT_CTLR
     default BT
 
-endif # BOARD_NICE60
+endif # BOARD_M71NRF
